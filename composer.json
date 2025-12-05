@@ -1,0 +1,14 @@
+{
+  "name": "gokost/gokost",
+  "description": "Gokost - PHP MySQL starter (admin + user)",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "twilio/sdk": "^6.0",
+    "phpoffice/phpspreadsheet": "^1.30",
+    "mpdf/mpdf": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {"Gokost\\\\": "app/"}
+  }
+}
